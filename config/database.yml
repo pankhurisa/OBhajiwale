@@ -1,0 +1,26 @@
+development:
+  adapter: mysql
+  database: bhaji_dev
+  host: localhost
+  username: root
+  password: root
+  port: 3306
+  
+
+# Warning: The database defined as "test" will be erased and re-generated from your development database when you run "rake".
+
+test:
+  adapter: mysql
+  database: bhaji_test
+  host: localhost
+  username: root
+  password: root
+  port: 3306
+
+production:
+  adapter: mysql
+  database: bhaji_prod
+  host: localhost
+  username: root
+  password: root
+  port: 3306
