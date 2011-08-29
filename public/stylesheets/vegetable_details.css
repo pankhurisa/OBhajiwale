@@ -1,15 +1,16 @@
-
 .veg-item-div {
     padding: 5px;
-    border: 2px solid #93BE40;
-    max-width: 375px;
-    min-width: 375px;
+    margin: 5px;
+    margin-top: 35px;
+    border: 5px solid #93BE40;
+    max-width: 320px;
+    min-width: 320px;
     overflow: hidden;
     background: #f0f0f0;
 }
 
 .veg-small-image {
-    clear: both;
+    display: inline;
     border: 1px solid #000;
     float: left;
     margin-right: 10px;
@@ -21,10 +22,18 @@
     cursor: pointer;
 }
 
-.information-div {
+.veg-name-span{
+    display: inline;
     float: left;
+    margin-top: 3px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.information-div {
+    clear: both;
     word-wrap: break-word;
-    max-width: 300px;
+    width: 100%;
 }
 
 .organic-span {
@@ -39,12 +48,6 @@
     margin-right: 4px;
 }
 
-.veg-name-span{
-    margin-top: 3px;
-    font-size: larger;
-    font-weight: bold;
-}
-
 .edit-quantity-span{
     color: #FFF;
     padding: 1px 2px;
@@ -56,18 +59,17 @@
     cursor: pointer;
 }
 
-.cart-span {
+.rate-desc-span{
+    float: left;
+    width: 200px;
+}
+
+.qty-span {
    margin-left: 5px;
    float: left;
 }
 
-.rate-desc-span{
-    float: left;
-    width: 180px;
-}
-
-
-.cart-span input{
+.qty-span input{
     width: 20px;
     height: 1em;
     margin-top: 0;

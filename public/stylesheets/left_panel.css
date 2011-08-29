@@ -1,0 +1,82 @@
+
+#left-panel{
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+/*############################### LEFT-MENU ####################################*/
+#left-menu-container{
+    background: #D1D1D1;
+}
+
+#left-menu{
+    font-weight: bold;
+    font-size: larger;
+    line-height: 2em;
+}
+
+#left-menu li{
+    list-style: none;
+    margin-right: 5px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/*############################ CART-PREVIEW ####################################*/
+
+#cart-preview-container{
+    background: #D1D1D1;
+}
+
+#cart-preview{
+    height: auto;
+    border: 5px solid #5C44A5;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+#cart-preview h3{
+    font-size: xx-large;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    display: inline;
+}
+
+#cart-preview ul{
+    border-top: 2px solid #5C44A5;
+    padding-left: 0px;
+}
+
+#cart-preview li{
+    clear: both;
+    line-height: 1.2em;
+    list-style: none;
+    margin-left: 2px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#cart-preview .veg-short-span{
+    font-size: smaller;
+}
+
+#cart-preview .qty-span{
+    margin-top: 3px;
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+#cart-preview .rate-span{
+    clear: left;
+    font-weight: bolder;
+    float: right;
+    text-align: right;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
