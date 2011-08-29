@@ -1,0 +1,74 @@
+
+.veg-item-div {
+    padding: 5px;
+    border: 2px solid #93BE40;
+    max-width: 375px;
+    min-width: 375px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.veg-small-image {
+    clear: both;
+    border: 1px solid #000;
+    float: left;
+    margin-right: 10px;
+    width:75px;
+    height:75px;
+}
+
+.veg-small-image:hover{
+    cursor: pointer;
+}
+
+.information-div {
+    float: left;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.organic-span {
+    font-weight: bold;
+    color: #618122;
+    margin-right: 4px;
+}
+
+.inorganic-span {
+    font-weight: bold;
+    color: #5C44A5;
+    margin-right: 4px;
+}
+
+.veg-name-span{
+    margin-top: 3px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.edit-quantity-span{
+    color: #FFF;
+    padding: 1px 2px;
+    font-weight: bold;
+    background: #2394D3;
+}
+
+.edit-quantity-span:hover{
+    cursor: pointer;
+}
+
+.cart-span {
+   margin-left: 5px;
+   float: left;
+}
+
+.rate-desc-span{
+    float: left;
+    width: 180px;
+}
+
+
+.cart-span input{
+    width: 20px;
+    height: 1em;
+    margin-top: 0;
+}

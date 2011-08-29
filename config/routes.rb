@@ -1,4 +1,8 @@
 Bhaji::Application.routes.draw do
+
+  get '/home' => 'application#home', :as => :home
+
+  root :to => 'application#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

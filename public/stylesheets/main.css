@@ -1,0 +1,165 @@
+body{
+    line-height: 1.5em;
+    max-width: 980px;
+    border: 1px solid #2394D3;
+    font-size: 16px;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+h1{
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+#content{
+    min-height: 600px;
+    display: inline;
+    float: right;
+}
+
+.smaller-font{
+    font-size: smaller;
+}
+
+.larger-font{
+    font-size: larger;
+}
+
+.block-display{
+    clear: both;
+}
+
+.inline-display{
+    margin-right: 5px;
+    float: left;
+}
+
+.no-border{
+    border: none !important;
+}
+
+#catalog{
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-left: 5px;
+    border: 2px solid #2394D3;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+/*############################### BUTTON ####################################*/
+
+.button_blue{
+    color: #FFF;
+    padding: 5px 6px;
+/*    font-weight: bold;*/
+    background: #2394D3;
+}
+
+.button_blue:hover{
+    cursor: pointer;
+}
+
+/*############################### TOP-BAR ####################################*/
+
+#top_bar {
+    position: relative;
+    text-align: right;
+}
+
+.top_bar_container{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #2394D3;
+}
+
+#top_bar span{
+    margin-right: 10px;
+}
+
+/*############################### TOP-MENU ####################################*/
+
+#top-menu-container{
+    width: 100%;
+}
+
+#top-menu{
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#top-menu li{
+    font-size: x-large;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#top-menu li:hover{
+    cursor: pointer;
+}
+
+/*############################### LEFT-MENU ####################################*/
+#left-menu-container{
+    float: left;
+    height: 100%;
+    background: #D1D1D1;
+}
+
+#left-menu{
+    max-width: 150px;
+    min-width: 150px;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 2em;
+}
+
+#left-menu li{
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+/*############################### FOOTER ####################################*/
+
+#footer-container{
+    clear: both;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footer{
+    height: auto;
+}
+
+#footer li{
+    display: inline;
+    border-right: 2px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: larger;
+}
+
+#footer li:hover{
+    cursor: pointer;
+}
+
+#copyright{
+    display: inline;
+    padding-left: 15px;
+}
+
+
+/*HTML HACKS*/
+
+/*
+width: expression(document.body.clientWidth < 742? "740px" : document.body.clientWidth > 1202? "1200px" : "auto");
+*/
