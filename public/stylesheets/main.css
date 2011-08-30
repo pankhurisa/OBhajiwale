@@ -2,9 +2,12 @@ body{
     height: auto;
     line-height: 1.5em;
     max-width: 980px;
-    border: 1px solid #2394D3;
+    border-left: 1px solid #2394D3;
+    border-right: 1px solid #2394D3;
     font-size: 16px;
     margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1{
