@@ -1,39 +1,74 @@
+#searchbox-container{
+    width: 200px;
+    border: 2px solid #5C44A5;
+    background: #F0F0F0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#searchbox a{
+    text-decoration: none;
+    background: #5C44A5;
+    border: 1px solid #5C44A5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#searchbox input{
+    width: 150px;
+}
 
 #left-panel{
     height: 100%;
     float: left;
     margin-left: 20px;
-    max-width: 200px;
+    max-width: 220px;
     min-width: 200px;
 }
 
 /*############################### LEFT-MENU ####################################*/
 #left-menu-container{
-    background: #D1D1D1;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 #left-menu{
-    font-weight: bold;
-    font-size: larger;
+    background: #F0F0F0;
+    border: 2px solid #5C44A5;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-size: x-large;
     line-height: 2em;
+    padding:5px;
 }
 
 #left-menu li{
     list-style: none;
     margin-right: 5px;
     padding-right: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 /*############################ CART-PREVIEW ####################################*/
 
 #cart-preview-container{
-    background: #D1D1D1;
+
 }
 
 #cart-preview{
+    width: 220px;
+    background: #F0F0F0;
+    border: 2px solid #5C44A5;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
     height: auto;
-    border: 5px solid #5C44A5;
     padding: 5px;
     padding-bottom: 30px;
 }

@@ -47,7 +47,6 @@ h1{
     margin-right: 10px;
     padding-top: 5px;
     padding-left: 5px;
-/*    border: 2px solid #2394D3;*/
     min-height: 500px;
     overflow: hidden;
 }
@@ -58,13 +57,26 @@ h1{
     float: right;
 }
 
+#info-bar{
+    font-size: x-large;
+    border-bottom: 2px solid #2394D3;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px 40px 10px;
+}
+
 /*############################### BUTTON ####################################*/
 
 .button_blue{
     color: #FFF;
     padding: 5px 6px;
-/*    font-weight: bold;*/
     background: #2394D3;
+    border: 1px solid #2394D3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .button_blue:hover{

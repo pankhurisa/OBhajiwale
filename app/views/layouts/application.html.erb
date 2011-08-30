@@ -10,10 +10,18 @@
   <%= render "shared/top_bar" %>
   <%= render "shared/top_menu" %>
   <div id="left-panel">
+    <div id="searchbox-container">
+      <div id="searchbox">
+        <input type="text" width="15" />
+        <a href="#">Go</a>
+      </div>
+    </div>
+
     <%= render "shared/left_menu" %>
     <%= render "shared/cart_preview" %>
   </div>
   <div id="content">
+    <div id="info-bar">List Of All Vegetables</div>
     <%= yield %>
   </div>
   <%= render "shared/footer" %>

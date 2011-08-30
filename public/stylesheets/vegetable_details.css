@@ -1,17 +1,20 @@
 .veg-item-div {
     padding: 5px;
-    margin: 5px;
-    margin-top: 35px;
-    border: 5px solid #93BE40;
+    margin: 0 5px 35px 5px;
+    border: 2px solid #93BE40;
     max-width: 320px;
     min-width: 320px;
     overflow: hidden;
-    background: #f0f0f0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #F3FBD8;
+
 }
 
 .veg-small-image {
     display: inline;
-    border: 1px solid #000;
+/*    border: 1px solid #000;*/
     float: left;
     margin-right: 10px;
     width:75px;
@@ -53,6 +56,10 @@
     padding: 1px 2px;
     font-weight: bold;
     background: #2394D3;
+    border: 1px solid #2394D3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .edit-quantity-span:hover{
