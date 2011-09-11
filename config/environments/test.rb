@@ -32,4 +32,7 @@ Bhaji::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # Setting for Devise after installing the gem and running 'bundle exec rails generate devise:install' on console
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
