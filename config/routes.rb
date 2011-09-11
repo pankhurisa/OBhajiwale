@@ -1,5 +1,7 @@
 Bhaji::Application.routes.draw do
 
+  devise_for :users
+
   get '/home' => 'application#home', :as => :home
 
   root :to => 'application#home'

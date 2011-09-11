@@ -10,6 +10,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20110911115923) do
+
+  create_table "users", :force => true do |t|
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "email",                           :null => false
+    t.string   "phone"
+    t.boolean  "active",        :default => true, :null => false
+    t.string   "address_line1",                   :null => false
+    t.string   "address_line2"
+    t.string   "postal_code"
+    t.string   "area",                            :null => false
+    t.string   "city",                            :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
 
 end

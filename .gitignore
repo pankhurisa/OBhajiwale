@@ -7,3 +7,4 @@ public/favicon.ico
 test/
 Gemfile.lock
 nbproject/*
+db/schema.rb
