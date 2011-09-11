@@ -1,8 +1,18 @@
 <div class="top_bar_container">
   <h1>O Bhajiwale</h1>
-<div id="top_bar">
-<span id="username" class="button_blue">username is large!!!</span>
-<span id="cart-symbol" class="button_blue">cart (99)</span>
-<span id="order" class="button_blue">Place order</span>
+  <div id="top_bar">
+    <span id="username" class="button_blue">
+      <% if user_signed_in? %>
+        <%= link_to current_user.email , edit_user_registration_path %>
+
+      <%else%>
+        <%= link_to "Guest Sign Up / Login", new_user_session_path %>
+      <%end%>
+    </span>
+    <span id="cart-symbol" class="button_blue">cart (99)</span>
+    <span id="order" class="button_blue">Place order</span>
+
+  </div>
 </div>
-</div>
+<%if notice.present? %><p class="notice"><%= notice %></p><%end%>
+<%if alert.present? %><p class="alert"><%= alert %></p><%end%>

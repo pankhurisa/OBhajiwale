@@ -1,0 +1,35 @@
+.main{
+    margin: 10px;
+    padding: 10px;
+}
+
+#top_bar a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*######################################### RAILS VIEW #############################################*/
+
+.notice{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #EDB113;
+    background: #EDD8A1;
+}
+
+.alert{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #EDB113;
+    background: #EDD8A1;
+}
+
+.signout-button{
+    display: inline;
+    margin-left: 10px;
+}
