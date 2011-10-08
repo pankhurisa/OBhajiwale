@@ -1,11 +1,9 @@
 body{
     height: auto;
     line-height: 1.5em;
-    max-width: 980px;
-    border-left: 1px solid #2394D3;
-    border-right: 1px solid #2394D3;
+    max-width: 1024px;
     font-size: 16px;
-    margin-left: 20%;
+    margin:auto;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -62,10 +60,7 @@ h1{
 
 #info-bar{
     font-size: x-large;
-    border-bottom: 2px solid #2394D3;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    border-bottom: 2px solid #454344;
     padding: 10px;
     margin: 0 10px 40px 10px;
 }
@@ -75,11 +70,8 @@ h1{
 .button_blue{
     color: #FFF;
     padding: 5px 6px;
-    background: #2394D3;
-    border: 1px solid #2394D3;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    background: #454344;
+    border: 1px solid #454344;
 }
 
 .button_blue:hover{
@@ -94,12 +86,10 @@ h1{
 }
 
 .top_bar_container{
-    background: #f0f0f0;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: 3px solid #2394D3;
+    border-bottom: 3px solid #454344;
 }
 
 #top_bar span{
@@ -113,6 +103,8 @@ h1{
 }
 
 #top-menu{
+    background: #9BB70D;
+    padding: 10px;
     position: relative;
     text-align: center;
     margin-bottom: 70px;
@@ -139,8 +131,7 @@ h1{
 }
 
 #footer{
-    border-top: 3px solid #2394D3;
-    background: #f0f0f0;
+    border-top: 3px solid #454344;
     margin-top: 10px;
     padding-bottom: 10px;
     height: auto;
